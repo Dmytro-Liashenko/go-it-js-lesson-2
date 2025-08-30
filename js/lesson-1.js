@@ -284,3 +284,11 @@ function fizzBuzz(num) {
     
 }
 console.log(fizzBuzz(34))
+
+
+
+
+function foo(...arr){
+console.log(arr)
+}
+foo([1,2,3,4])
